@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SqlProjSSB", "SqlProjSSB.sqlproj", "{2F36E35D-36E4-47EE-BA08-18CEE74A6AF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F36E35D-36E4-47EE-BA08-18CEE74A6AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F36E35D-36E4-47EE-BA08-18CEE74A6AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F36E35D-36E4-47EE-BA08-18CEE74A6AF2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2F36E35D-36E4-47EE-BA08-18CEE74A6AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F36E35D-36E4-47EE-BA08-18CEE74A6AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F36E35D-36E4-47EE-BA08-18CEE74A6AF2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
