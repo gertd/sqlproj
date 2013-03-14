@@ -8,7 +8,7 @@ AS
 INSERT INTO Production.UpdatedInventory
 SELECT ProductID, LocationID, NewQty, PreviousQty 
 FROM
-(    MERGE AW2012.Production.ProductInventory AS pi
+(    MERGE Production.ProductInventory AS pi
      USING (SELECT ProductID, SUM(OrderQty) 
             FROM AW2012.Sales.SalesOrderDetail AS sod
             JOIN AW2012.Sales.SalesOrderHeader AS soh
