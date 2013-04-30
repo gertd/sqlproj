@@ -7,6 +7,6 @@ go
 
 create view dbo.SelectFromRemoteDB
 as
-select	*
+select	[id], [ref], [name], [created]
 from	[$(RemoteServer)].[$(RemoteDB)].[RemoteSchema].[RemoteTable]
 go
