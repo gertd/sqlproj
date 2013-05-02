@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RemoteDB", "RemoteDB\RemoteDB.sqlproj", "{589D77EA-4D09-4435-B958-E15C829223A2}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LocalDB", "LocalDB\LocalDB.sqlproj", "{138AED2E-0187-4B02-91D5-0F822C1092E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{589D77EA-4D09-4435-B958-E15C829223A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589D77EA-4D09-4435-B958-E15C829223A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589D77EA-4D09-4435-B958-E15C829223A2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{589D77EA-4D09-4435-B958-E15C829223A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589D77EA-4D09-4435-B958-E15C829223A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589D77EA-4D09-4435-B958-E15C829223A2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{138AED2E-0187-4B02-91D5-0F822C1092E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138AED2E-0187-4B02-91D5-0F822C1092E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138AED2E-0187-4B02-91D5-0F822C1092E2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{138AED2E-0187-4B02-91D5-0F822C1092E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138AED2E-0187-4B02-91D5-0F822C1092E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138AED2E-0187-4B02-91D5-0F822C1092E2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
