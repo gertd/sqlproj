@@ -218,3 +218,22 @@ BEGIN
 	END CONVERSATION @conversation_handle;
 END;
 GO
+
+CREATE VIEW vWriterQueue
+AS
+SELECT	[status], 
+		[priority], 
+		[queuing_order], 
+		[conversation_group_id], 
+		[conversation_handle], 
+		[message_sequence_number], 
+		[service_name], [service_id], 
+		[service_contract_name], 
+		[service_contract_id], 
+		[message_type_name], 
+		[message_type_id], 
+		[validation], 
+		[message_body]
+FROM	[writer-queue]
+GO
+
